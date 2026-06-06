@@ -127,5 +127,111 @@
     "name":"克黴先",
     "keywords":"camisan 克黴先 癬 黴菌 lamisil 灰指甲",
     "filename":"camisan.pdf"
+  },
+  {
+    "name":"舒敏寧",
+    "keywords":"levocetirizine dihydrochloride 5毫克 過敏 蕁麻疹 抗組織胺",
+    "filename":"levocetirizine.pdf"
+  },
+  {
+    "name":"美力欣50",
+    "keywords":"minocin50 美力欣 抗生素 minocycline 四環素",
+    "filename":"minocin50.pdf"
+  },
+  {
+    "name":"洛寧錠",
+    "keywords":"minoxidil LONITEN 10mg",
+    "filename":"minoxidil.pdf"
+  },
+  {
+    "name":"",
+    "keywords":"",
+    "filename":".pdf"
+  },
+  {
+    "name":"甲基普立朗",
+    "keywords":"mp4 methylprednisolone 4mg 類固醇",
+    "filename":"mp4.pdf"
+  },
+  {
+    "name":"去氫錠",
+    "keywords":"Prednisolone p3 去氫錠 類固醇",
+    "filename":"p3.pdf"
+  },
+  {
+    "name":"喜達鎮",
+    "keywords":"喜達鎮 periactin Cyproheptadine Hydrochloride 4mg 抗組織胺",
+    "filename":"periactin.pdf"
+  },
+  {
+    "name":"美克寧",
+    "keywords":"pr6 美克寧 Mequitazine 抗組織胺 5mg",
+    "filename":"pr6.pdf"
+  },
+  {
+    "name":"銳虎",
+    "keywords":"rinvoq JAK抑制劑 Upadacitinib",
+    "filename":"rinvoq.pdf"
+  },
+  {
+    "name":"A酸",
+    "keywords":"ro ROACCUTANE isotretinoin 13-cis retinoic acid A酸",
+    "filename":"ro.pdf"
+  },
+  {
+    "name":"理冒伯樂⽌痛錠",
+    "keywords":"scanol 理冒伯樂⽌痛錠 Acetaminophen 退燒 ⽌痛",
+    "filename":"scanol.pdf"
+  },
+  {
+    "name":"適撲諾",
+    "keywords":"sporonox 適撲諾 itraconazole 100mg 黴菌 癬",
+    "filename":"sporonox.pdf"
+  },
+  {
+    "name":"",
+    "keywords":"",
+    "filename":".pdf"
+  },
+  {
+    "name":"絲每妥",
+    "keywords":"stromectol 絲每妥 Ivermectin 3mg",
+    "filename":"stromectol.pdf"
+  },
+  {
+    "name":"喜佳胃",
+    "keywords":"t200 喜佳胃 胃藥 cimetidine 200mg",
+    "filename":"t200(2).pdf"
+  },
+  {
+    "name":"妥富腦",
+    "keywords":"tofranil 妥富腦 Imipramine HYDROCHLORIDE 10mg",
+    "filename":"tofranil.pdf"
+  },
+  {
+    "name":"血舒敏",
+    "keywords":"tr5 血舒敏 TRANEXAMIC ACID 250mg 美白藥",
+    "filename":"tr5.pdf",
+    "price":"10"
+  },
+  {
+    "name":"循血敏",
+    "keywords":"trental Trenfylline 400mg Pentoxifylline 末梢血管循環",
+    "filename":"trental.pdf"
+  },
+  {
+    "name":"非炎鉀",
+    "keywords":"voren-k 非炎鉀 NSAIDs Diclofenac Potassium 50MG 止痛",
+    "filename":"voren-k.pdf"
+  },
+  {
+    "name":"鋅康",
+    "keywords":"zinco 鋅康 Zinc Gluconate 鋅",
+    "filename":"zinco.pdf"
+  },
+  {
+    "name":"敵疱治",
+    "keywords":"zovirax 400 Acylete Acyclovir 抗病毒 敵疱治",
+    "filename":"zovirax 400.pdf"
   }
 ]
