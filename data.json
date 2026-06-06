@@ -8,5 +8,80 @@
     "name":"愛達信",
     "keywords":"spiron 愛達信 利尿",
     "filename":"spiron.pdf"
-  }
+  },
+  {
+    "name":"飛敏耐60",
+    "keywords":"allegra60 60毫克 Fexofenadine 抗組織胺 過敏 蕁麻疹",
+    "filename":"allegra60.pdf"
+  },
+  {
+    "name":"艾來錠",
+    "keywords":"allegra180 艾來錠 抗組織胺 過敏 蕁麻疹 180毫克",
+    "filename":"allegra180.pdf"
+    },
+  {
+    "name":"安蒙西林",
+    "keywords":"Amoxicillin 安蒙西林 抗生素",
+    "filename":"amoxicillin.pdf"
+  },
+  {
+    "name":"雙合黴素",
+    "keywords":"雙合黴素 Soonmelt 抗生素",
+    "filename":"augmentin.pdf"
+  },
+  {
+    "name":"美舒樂",
+    "keywords":"美舒樂 b12 末梢性神經障害 MECOBALAMIN 0.5毫克",
+    "filename":"b12.pdf"
+  },
+  {
+    "name":"可治菌錠",
+    "keywords":"可治菌錠 baktar Trimethoprim Sulfamethoxazole CO-TRIZOL",
+    "filename":"baktar.pdf"
+  },
+  {
+    "name":"綜⼄⽅膜衣錠",
+    "keywords":"Vitamin B Complex 綜⼄⽅膜衣錠 多發性神經炎 b-complex",
+    "filename":"b-complex.pdf"
+  },
+  {
+    "name":"洩敏",
+    "keywords":"cetirizine 洩敏 Cemine 10mg",
+    "filename":"cetirizine.pdf"
+  },
+  {
+    "name":"必利停",
+    "keywords":"Labixten 必利停 bilastine 20mg 過敏 蕁麻疹",
+    "filename":"bilastine.pdf"
+  },
+  {
+    "name":"樂敏錠",
+    "keywords":"clarityne 樂敏錠 lomidine loratadine",
+    "filename":"clarityne.pdf"
+  },
+  {
+    "name":"康黴樂",
+    "keywords":"conmezole Fluconazole 黴菌 150毫克 150mg",
+    "filename":"conmezole.pdf"
+  },
+  {
+    "name":"咳痰淨",
+    "keywords":"cotazym 咳嗽 痰",
+    "filename":"cotazym.pdf"
+  },
+  {
+    "name":"停敏",
+    "keywords":"denosin 停敏 抗組織胺 DESLORATADINE",
+    "filename":"denosin.pdf"
+  },
+  {
+    "name":"杜使平",
+    "keywords":"doxepin 杜使平 25mg",
+    "filename":"doxepin.pdf"
+  },
+  {
+    "name":"榮富多信",
+    "keywords":"duracef 榮富多信 lanfadroxil 抗生素 500mg",
+    "filename":"duracef.pdf"
+  },
 ]
