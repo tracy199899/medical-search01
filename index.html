@@ -1,0 +1,116 @@
+HTML
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>藥品查詢系統</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        #searchBar {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        #searchBar:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .result-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            transition: background 0.2s;
+        }
+        .result-item:hover {
+            background-color: #f9f9f9;
+        }
+        .result-item a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+        }
+        .no-result {
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>藥品仿單 PDF 快速查詢</h2>
+    <input type="text" id="searchBar" placeholder="輸入藥品名稱、英文成分或症狀..." onkeyup="searchMedicine()">
+    
+    <div id="results"></div>
+</div>
+
+<script>
+    let medicineData = [];
+
+    // 自動讀取同目錄下的 data.json
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            medicineData = data;
+        })
+        .catch(error => console.error('無法讀取藥品資料:', error));
+
+    // 搜尋篩選功能
+    function searchMedicine() {
+        const query = document.getElementById('searchBar').value.toLowerCase().trim();
+        const resultsDiv = document.getElementById('results');
+        resultsDiv.innerHTML = ''; 
+
+        if (query === '') return;
+
+        const filtered = medicineData.filter(med => 
+            med.name.toLowerCase().includes(query) || 
+            med.keywords.toLowerCase().includes(query)
+        );
+
+        if (filtered.length === 0) {
+            resultsDiv.innerHTML = '<div class="no-result">找不到相關藥品</div>';
+            return;
+        }
+
+        filtered.forEach(med => {
+            const div = document.createElement('div');
+            div.className = 'result-item';
+            // 這裡直接讀取跟網頁放在同一個地方的 PDF 檔案
+            div.innerHTML = `<a href="${med.filename}" target="_blank">📄 ${med.name}</a>`;
+            resultsDiv.appendChild(div);
+        });
+    }
+</script>
+
+</body>
+</html>
