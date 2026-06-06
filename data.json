@@ -2,12 +2,14 @@
   {
     "name":"心通寧",
     "keywords":"cardiol 心通寧 6.25毫克",
-    "filename":"cardiol.pdf"
+    "filename":"cardiol.pdf",
+    "price": "5"
   },
   {
     "name":"愛達信",
     "keywords":"spiron 愛達信 利尿",
-    "filename":"spiron.pdf"
+    "filename":"spiron.pdf",
+    "price": "5"
   },
   {
     "name":"飛敏耐60",
@@ -17,7 +19,8 @@
   {
     "name":"艾來錠",
     "keywords":"allegra180 艾來錠 抗組織胺 過敏 蕁麻疹 180毫克",
-    "filename":"allegra180.pdf"
+    "filename":"allegra180.pdf",
+    "price": "10"
   },
   {
     "name":"安蒙西林",
@@ -62,7 +65,8 @@
   {
     "name":"康黴樂",
     "keywords":"conmezole Fluconazole 黴菌 150毫克 150mg",
-    "filename":"conmezole.pdf"
+    "filename":"conmezole.pdf",
+    "price": "150"
   },
   {
     "name":"咳痰淨",
