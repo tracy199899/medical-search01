@@ -233,5 +233,71 @@
     "name":"敵疱治",
     "keywords":"zovirax 400 Acylete Acyclovir 抗病毒 敵疱治",
     "filename":"zovirax 400.pdf"
+  },
+  {
+    "name":"艾莉凝膠",
+    "keywords":"feeling gel 艾莉凝膠 外用A酸 Adapelene 0.1%",
+    "filename":"feeling gel.pdf",
+    "price":"100"
+  },
+  {
+    "name":"思媚乳膏",
+    "keywords":"a6 思媚乳膏 Azelaic Acid",
+    "filename":"a6.pdf",
+    "price":"50"
+  },
+  {
+    "name":"安可黴乳膏",
+    "keywords":"ankorme 安可黴乳膏 癬 黴菌 Butenafine hydrochloride 10mg",
+    "filename":"ankorme.pdf",
+    "price":"100"
+  },
+  {
+    "name":"艾剋樂芙乳膏",
+    "keywords":"aclovir 艾剋樂芙乳膏 Acyclovir 疱疹",
+    "filename":"aclovir.pdf",
+    "price":"80"
+  },
+  {
+    "name":"⾙若菲液",
+    "keywords":"bdl5 Betamethasone BENOVATE SOLUTION 頭⽪",
+    "filename":"bdl5.pdf",
+    "price":"70"
+  },
+  {
+    "name":"雅若凝膠",
+    "keywords":"bp2 雅若凝膠 ACZO GEL 過氧化苯醯 Benzoyl Peroxide",
+    "filename":"bp2.pdf",
+    "price":"50"
+  },
+  {
+    "name":"倍立克軟膏",
+    "keywords":"bsao 倍立克軟膏 BETASALIC Betamethasone 苔癬",
+    "filename":"bsao.pdf",
+    "price":"50"
+  },
+  {
+    "name":"必健乳膏",
+    "keywords":"bgc B-Gencin cream 必健乳膏 Betamethasone",
+    "filename":"bgc.pdf",
+    "price":"50"
+  },
+  {
+    "name":"強⼒施美藥膏",
+    "keywords":"c.b. Lidocaine 強⼒施美藥膏 止癢 非類固醇",
+    "filename":"c.b.oint.pdf",
+    "price":"25"
+  },
+  {
+    "name":"袪痘素凝膠",
+    "keywords":"cld5 袪痘素凝膠 Clindamycin",
+    "filename":"cld5.pdf",
+    "price":"100"
+  },
+  {
+    "name":"可立信凝膠",
+    "keywords":"cld7 可立信凝膠 KOLINCIN Clindamycin",
+    "filename":"cld7.pdf",
+    "price":"50"
   }
 ]
