@@ -18,7 +18,7 @@
     "name":"艾來錠",
     "keywords":"allegra180 艾來錠 抗組織胺 過敏 蕁麻疹 180毫克",
     "filename":"allegra180.pdf"
-    },
+  },
   {
     "name":"安蒙西林",
     "keywords":"Amoxicillin 安蒙西林 抗生素",
@@ -78,10 +78,10 @@
     "name":"杜使平",
     "keywords":"doxepin 杜使平 25mg",
     "filename":"doxepin.pdf"
-  }
+  },
   {
     "name":"榮富多信",
     "keywords":"duracef 榮富多信 lanfadroxil 抗生素 500mg",
     "filename":"duracef.pdf"
-  },
+  }
 ]
