@@ -83,5 +83,45 @@
     "name":"榮富多信",
     "keywords":"duracef 榮富多信 lanfadroxil 抗生素 500mg",
     "filename":"duracef.pdf"
+  },
+  {
+    "name":"鐵達寧",
+    "keywords":"fe 鐵達寧 iron 100mg tedalin",
+    "filename":"fe(lll).pdf"
+  },
+  {
+    "name":"快得",
+    "keywords":"finta 快得 finasteride 睪固酮",
+    "filename":"finta.pdf"
+  },
+  {
+    "name":"膚有",
+    "keywords":"griseofulvin fuyou 癬 黴菌",
+    "filename":"griseofulvin.pdf"
+  },
+  {
+    "name":"易伏炎膜衣錠",
+    "keywords":"ibuprofen 易伏炎膜衣錠 400mg NSAID 消炎 止痛",
+    "filename":"ibuprofen.pdf"
+  },
+  {
+    "name":"信保欣",
+    "keywords":"信保欣 keflex 250mg Cephalexin 抗⽣素",
+    "filename":"keflex.pdf"
+  },
+  {
+    "name":"克治喘",
+    "keywords":"ketotifen 克治喘 1mg 抗組織胺 過敏",
+    "filename":"ketotifen.pdf"
+  },
+  {
+    "name":"克百敏",
+    "keywords":"kobamin 克百敏 Vitamin B群 Biotin",
+    "filename":"kobamin.pdf"
+  },
+  {
+    "name":"克黴先",
+    "keywords":"camisan 克黴先 癬 黴菌 lamisil",
+    "filename":"camisan.pdf"
   }
 ]
