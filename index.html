@@ -45,6 +45,9 @@
             padding: 15px;
             border-bottom: 1px solid #eee;
             transition: background 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .result-item:hover {
             background-color: #f9f9f9;
@@ -54,7 +57,18 @@
             color: #2980b9;
             font-weight: bold;
             font-size: 18px;
-            display: block;
+            flex-grow: 1;
+        }
+        /* 新增的價格標籤樣式 */
+        .price-badge {
+            background-color: #e67e22;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+            margin-left: 10px;
         }
         .no-result {
             color: #7f8c8d;
@@ -66,7 +80,7 @@
 <body>
 
 <div class="container">
-    <h2>藥品仿單 PDF 快速查詢</h2>
+    <h2>藥品仿單 PDF</h2>
     <input type="text" id="searchBar" placeholder="輸入藥品名稱、英文成分或症狀..." onkeyup="searchMedicine()">
     
     <div id="results"></div>
@@ -104,8 +118,12 @@
         filtered.forEach(med => {
             const div = document.createElement('div');
             div.className = 'result-item';
-            // 這裡直接讀取跟網頁放在同一個地方的 PDF 檔案
-            div.innerHTML = `<a href="${med.filename}" target="_blank">📄 ${med.name}</a>`;
+            
+            // 這裡修改了：除了 PDF 連結，旁邊還會多塞一個自費價格的橘色標籤
+            div.innerHTML = `
+                <a href="${med.filename}" target="_blank">📄 ${med.name}</a>
+                <span class="price-badge">自費 $${med.price} 元</span>
+            `;
             resultsDiv.appendChild(div);
         });
     }
